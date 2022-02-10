@@ -25,16 +25,37 @@ function userLength() {
   console.log(passwordLength);
   //return parseInt(passwordLength);
 
-  
-  
-
 };
 
 
+//userLength();
+
+
+// OTHER ATTRIBUTES FUNCTION
+
+function otherAttributes() {
+
+  var moreOptions = {
+
+    combineOptions: [],
+    wantUpperCase: window.confirm("Would you like to include upper case letters?"),
+    wantLowerCase: window.confirm("Would you like to include lower case letters"),
+    wantNumbers: window.confirm("Would you like to include numbers?"),
+    wantSpecialCharacters: window.confirm("Would you like to include special characters?"),
+  }
+
+  if (moreOptions.wantLowerCase === false && moreOptions.wantLowerCase === false && moreOptions.wantNumbers === false && moreOptions.wantSpecialCharacters === false) {
+    window.alert("At least one of the options must be used!");
+    return otherAttributes()
+  }
 
 
 
-userLength();
+}
+
+
+
+
 
 
 
