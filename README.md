@@ -36,16 +36,16 @@ THEN the password is either displayed in an alert or written to the page
 ## Usage
 
 ### 1. Click Generate Password button to start app.
-<img src="assets\images\step1.png" alt="step1">
+<img src="assets\images\Step1.png" alt="tep1">
 
 ### 2. Enter the length of the password you need.
-<img src="assets\images\step2.png" alt="step2">
+<img src="assets\images\Step2.png" alt="step2">
 
 ### 3. Confirm if you want Upper Case Letters.
-<img src="assets\images\step3.png" alt="step3">
+<img src="assets\images\Step3.png" alt="step3">
 
 ### 4. Confirm if you want Lower Case Letters. (2 extra options: Numbers and Special characters)
-<img src="assets\images\step4.png" alt="step4">
+<img src="assets\images\Step4.png" alt="step4">
 
 ### 5. Your password has been generated and its ready to be used (copy & paste).
-<img src="assets\images\step5.png" alt="step5">
+<img src="assets\images\Step5.png" alt="step5">
