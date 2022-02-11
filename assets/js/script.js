@@ -96,7 +96,7 @@ function generatePassword() {
 
 };
 
-//create a function to randomize with Math.random and add Math.floor to round number
+//FUNCTION TO CREATE RANDOM NUMBER TO USE ON generatePassword FUNCTION
 function randomChar(array) {
   return array[Math.floor(Math.random() * array.length)];
 
