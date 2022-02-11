@@ -23,7 +23,7 @@ function userLength() {
     return userLength()
   }
   console.log(passwordLength);
-  //return parseInt(passwordLength);
+  return passwordLength;
 
 };
 
